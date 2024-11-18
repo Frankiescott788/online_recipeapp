@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: white;
+  z-index : 10;
+}
+
+.logo-img {
+  height: 4rem;
+  object-fit: cover;
+}
+main {
+  padding-top: 3rem;
+}
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.pinimg.com/564x/56/20/25/562025c5aadd1589486ccf9e36629d18.jpg"),
+    no-repeat;
+  background-size: cover;
+  height: 80dvh;
+}
+.recipe-background{
+  background : url('https://assets.lummi.ai/assets/QmQFQq1v1ecdcQnS9syzQqkZXCcC6V4rK4zVweLDJDfH1Y?auto=format&w=1500')
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
